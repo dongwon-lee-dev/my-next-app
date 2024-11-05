@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-next-app
-        image: ${DOCKER_REGISTRY}/my-next-app:latest
+        image: ${DOCKER_REG}/my-next-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
